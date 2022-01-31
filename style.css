@@ -1,0 +1,327 @@
+.container{
+
+
+
+
+}
+nav{
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: x-large;
+    font-family: 'Handlee', cursive;
+    
+
+}
+nav:hover{
+    background: linear-gradient(to left,  #fb5283, #ff3527)
+}
+.carousel-caption{
+    display: block;
+    text-align: center;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0;
+
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2{
+    font-size: 54px;
+}
+
+.col-1 h3{
+    font-size: 25px;
+    color: #1a0785;
+    font-weight: 90;
+    margin: 14px 0 10px 0px;
+
+}
+
+button{
+    width: 200px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 25px 0 25px 0;
+    cursor: pointer;
+
+
+}
+
+button img{
+    width: 35px;
+    margin-left: 3px;
+}
+
+button:hover{
+    background: linear-gradient(to left, #fb5283, #ff3527);
+}
+
+.col-1::after{
+    content: "";
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(to right, #ff469f, #ff6062);
+    position: absolute;
+    left: -40px;
+    top: 0px;
+
+}
+
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+    
+
+}
+.col-2 .controller{
+    width: 500%;
+}
+
+.add-btn img{
+    width: 35px;
+    margin-bottom: 5px;
+    margin-left: 27px;
+}
+
+.add-btn p{
+    margin-left: 20px;
+    text-align: center;
+    color: darkblue;
+    
+}
+
+.form-group input{
+    font-family: 'Handlee', cursive;
+    display: block;
+    width: 310px;
+    padding: 7px;
+    margin: 10px auto;
+    border: 2px solid #ff6062;
+    border-radius: 12px 12px 0 0;
+    font-weight: bolder;
+}
+
+.page-footer{
+    background: rgb(207, 198, 216);
+
+}
+@media only screen and (max-width:400px) {
+    nav{
+        width: 100%;
+        background: linear-gradient(to right, #fb54a2, #ff575a);
+        position: absolute;
+        top: 0%;
+        right: 0;
+        z-index: 2;  
+        font-size: larger;
+        border-radius: 0;    
+    }
+    .row-1{
+        flex-direction: row;
+        margin-top: 150px;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-top: 35rem;;
+
+    }
+    .col-2 .controller{
+        width: 500%;
+        margin: 50px;
+    }
+    .col-1{
+        margin-top: -30rem;
+    }
+    .col-1 h2{
+        font-size: 30px;
+    }
+    .col-1 h3{
+        font-size: 15px;
+        color: #1a1818;
+        margin: 15px 0 8px 0px;
+    }
+    .col-2 h3{
+        display: none;
+    }
+
+    .add-btn p{
+        display: none;
+        
+    }
+    .add-btn img{
+        display: none;
+    }
+    .form-group input{
+        font-family: 'Handlee', cursive;
+        display: block;
+        width: 200px;
+        padding: 7px;
+        margin: 20px 0;
+        border: 2px solid #ff6062;
+        border-radius: 20px 0 20px 0;
+        font-weight: lighter;
+    }    
+}
+
+@media only screen and (min-width:400px) and (max-width:700px) {
+    nav{
+        width: 100%;
+        background: linear-gradient(to right, #fb54a2, #ff575a);
+        position: absolute;
+        top: 0%;
+        right: 0;
+        z-index: 2;  
+        font-size: larger;
+        border-radius: 0;
+
+    }
+    .row-1{
+        flex-direction: row;
+        margin-top: 100px;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-top: 35rem;;
+
+    }
+    .col-2 .controller{
+        width: 500%;
+        margin: 50px;
+    }
+    .col-1{
+        flex-basis: 100%;
+        margin-top: -430px;
+
+    }
+    .col-1 h2{
+        font-size: 35px;
+    }
+
+    .col-1 h3{
+        font-size: 20px;
+        color: #a50b0b;
+        margin: 15px 0 8px 0px;
+    }
+    .col-2 h3{
+        display: none;
+    }
+
+    .form-group input{
+        font-family: 'Handlee', cursive;
+        display: block;
+        width: 250px;
+        padding: 7px;
+        margin: 13px 0;
+        border: 2px solid #ff6062;
+        border-radius: 20px 0 20px 0;
+        font-weight: lighter;
+    }
+
+    .add-btn p{
+        display: none;
+        
+    }
+    .add-btn img{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:700px) and (max-width:1200px) {
+    nav{
+        width: 100%;
+        background: linear-gradient(to right, #fb54a2, #ff575a);
+        position: absolute;
+        top: 0%;
+        right: 0;
+        z-index: 2;
+        margin-top: 0%;   
+        font-size: larger;
+        border-radius: 0;
+        text-align: center;
+
+    }
+    .row-1{
+        flex-direction: row;
+        margin-top: 100px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-top: 30px;
+        margin-bottom: 105px;
+
+    }
+    .col-2 .controller{
+        width: 300%;
+        z-index: -1
+        ;
+    }
+    .col-1{
+        flex-basis: 100%;
+        margin-top: 10px;
+
+    }
+    .col-1 h2{
+        font-size: 35px;
+    }
+
+    .col-1 h3{
+        font-size: 20px;
+        color: #a50b0b;
+        margin: 15px 0 8px 0px;
+    }
+
+    .form-group input{
+        font-family: 'Handlee', cursive;
+        display: block;
+        width: 350px;
+        padding: 7px;
+        margin: 13px 0;
+        border: 2px solid #ff6062;
+        border-radius: 20px 0 20px 0;
+        font-weight: lighter;
+        z-index: 1;
+    }
+
+    .add-btn p{
+        display: none;
+        
+    }
+    .add-btn img{
+        display: none;
+    }
+    .col-2 h3{
+        display: none;
+    }
+    
+}
