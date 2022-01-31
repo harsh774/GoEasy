@@ -1,2 +1,0 @@
-# Ashtacab
-CAB / TAXI 
