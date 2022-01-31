@@ -1,9 +1,3 @@
-.container{
-
-
-
-
-}
 nav{
     background: linear-gradient(to right, #fb5283, #ff3527);
     border-radius: 2px;
@@ -66,8 +60,6 @@ button{
     background: linear-gradient(to right, #fb5283, #ff3527);
     border-radius: 25px 0 25px 0;
     cursor: pointer;
-
-
 }
 
 button img{
@@ -87,7 +79,6 @@ button:hover{
     position: absolute;
     left: -40px;
     top: 0px;
-
 }
 
 .col-2{
@@ -97,8 +88,6 @@ button:hover{
     justify-content: flex-end;
     align-items: center;
     font-family: 'Handlee', cursive;
-    
-
 }
 .col-2 .controller{
     width: 500%;
